@@ -1,0 +1,48 @@
+# Kommentare Hinzufügen
+# Um Kommentare hinzuzufügen die keinen einfluss auf den Code haben benötigt man eine Raute wichtig ist aber dass Kommentare nicht in Semicolons gesetzt werden dürfen da diese sonst auch ausgegeben werden.
+#Bsp:
+print ("Willkommen in der Kulow Famile! #Begrüßung") # So wäre dass Falsch
+print ("Willkommen in der Kulow Familie!") # Begrüßung # So wäre dass Richtig
+
+# Mit dem folgenden Befehl lassen sich Texte zahlen ausgeben  
+print ("text") # Dieser Befehl wird dass Wort "text" ausgeben
+
+# Zudem sollte man beachten dass es 2 Semicolons gibt einmal " und ' diese dienen um Fehler zu vermeiden
+# Bspsweise wenn man text mit Gänsefüßchen ausgeben will kann man dies so machen:
+
+print ('Hallo "Welt') #  Richtig
+
+print ("Hallo "Welt"") # Falsch
+
+#Variablen Überprüfen
+
+Variable auswählen z.B (a,b,c etc)
+a = 9 (die 9 steht für den Wert der Variable)
+if a== 9  #(if steht für falls Variable a = 9 ist würd der nächste Befehl ausgeführt)
+print (Variable a stimmt mit dem vorgegebenen Wert überein)
+else: #(else: steht für ein anderes Ergebniss als 9 falls dies so ist wird der nächste Befehl ausgeführt)
+print (Die Variable ist nicht mit dem vorgegebenen Wert identisch)
+
+#Python Rechen Variablen
+Addieren = 9+9
+Subtrahieren = 10-5
+Multiplizieren = 5*3
+Dividieren = 50/10
+
+#Variablen Überprüfen 2
+
+a = 9 
+# Nun kann man die Variable a mit einen beliebigen Zahl Addieren, Subtrahieren, Multiplizieren oder Dividieren siehe nächste Zeile
+a + 9 = 18 
+# Andere Extra Variablen können anders definiert werden mit dem folgenden Beispiel
+
+a = 9
+a + 9
+18
+b = a * 5 
+b
+45
+# Werte können auch wieder verändert werden entweder in der vorherigen Zeile wo die Variable definiert wird oder wie folgt
+b = b-6
+b
+39
